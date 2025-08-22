@@ -14,7 +14,15 @@ const resources = {
       appointmentsToday: "Appointments Today",
       pendingApprovals: "Pending Approvals",
       logout: "Logout",
-    }
+      addNewPatient: "Add New Patient",
+      birthDate: "Birth Date",
+      gender: "Gender",
+      phone: "Phone",
+      email: "Email",
+      address: "Address",
+      status: "Status",
+      details: "Details",
+    },
   },
   pt: {
     translation: {
@@ -26,7 +34,15 @@ const resources = {
       appointmentsToday: "Consultas Hoje",
       pendingApprovals: "Pendentes",
       logout: "Sair",
-    }
+      addNewPatient: "Adicionar Novo Paciente",
+      birthDate: "Data de Nascimento",
+      gender: "Gênero",
+      phone: "Telefone",
+      email: "Email",
+      address: "Endereço",
+      status: "Status",
+      details: "Details",
+    },
   },
   es: {
     translation: {
@@ -38,8 +54,16 @@ const resources = {
       appointmentsToday: "Citas Hoy",
       pendingApprovals: "Pendientes",
       logout: "Cerrar sesión",
-    }
-  }
+      addNewPatient: "Agregar Nuevo Paciente",
+      birthDate: "Fecha de Nacimiento",
+      gender: "Género",
+      phone: "Teléfono",
+      email: "Correo electrónico",
+      address: "Dirección",
+      status: "Estado",
+       details: "Detalles",
+    },
+  },
 };
 
 i18n
@@ -49,8 +73,8 @@ i18n
     resources,
     fallbackLng: "en", // idioma padrão
     interpolation: {
-      escapeValue: false
-    }
+      escapeValue: false,
+    },
   });
 
 export default i18n;
